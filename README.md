@@ -3,4 +3,4 @@ This is a set of Python tools I built that are useful for fundamental and quanti
 ## Projects
 ### 1. Implied Volatility Surface Modeler
 ### 2. Portfolio Optimization Tool
-### 3. Quantitative ML Model
+### 3. Quantitative ML for Earnings Suprises
