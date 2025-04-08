@@ -30,7 +30,6 @@ This project is an end-to-end machine learning system for predicting earnings su
 ### Repo Link:
 [View Code](https://github.com/noahshallman/quant-tools/blob/main/earnings_surprise_2.py)
 
---
 ## Implied Volatility Surface Modeler
 
 This Python script retrieves option data for a specified ticker, calculates the implied volatility of call options using the Black-Scholes model, and visualizes the resulting implied volatility surface in a 3D plot. 
