@@ -5,31 +5,30 @@ Welcome! This is a growing collection of Python tools I've built to explore fina
 ---
 ## Quantamental ML: Earnings Surprise Predictor
 
-This project is an end-to-end machine learning system for predicting earnings surprises using both technical market indicators and company-level fundamental metrics.
+This project is an end-to-end machine learning system for predicting earnings surprises using historical stock data and quarterly earnings data.
 
 ### Data Acquisition:
-- Loads historical equity data via `yfinance`
-- Simulates quarterly earnings data (ActualEPS & ConsensusEPS) using a placeholder function (can be replaced with real data sources)
+- Loads historical equity data using `yfinance`
+- Simulates quarterly earnings data (ActualEPS & ConsensusEPS) with a dummy function (replaceable with real data sources).
 
 ### Feature Engineering:
-- Calculates daily returns, log returns
-- Technical indicators: SMA, EMA, RSI, MACD, and rolling volatility
-- Merges quarterly stock data with earnings data and calculates the earnings surprise metric
+- Computes technical indicators such as daily returns, log returns, multiple moving averages (SMA & EMA), volatility, RSI, and MACD.
+- Merges stock data with earnings data by quarter and calculates the earnings surprise metric.
 
-### Model Pipeline:
-- Scikit-learn pipeline with `StandardScaler` and `RandomForestClassifier`
-- Hyperparameter tuning using `GridSearchCV` with ROC-AUC scoring
+### Model Pipeline and Training:
+- Construcs a scikit-learn pipeline with `StandardScaler` and a `RandomForestClassifier`. 
+- Optimizes hyperparameters using `GridSearchCV` to improve model performance based on ROC-AUC. 
 
-### Evaluation:
-- ROC-AUC score and classification report for model performance
-- Feature importance plotted with Seaborn
+### Evaluation and Visualization:
+- Evaluates the model with a classification report and ROC-AUC score.
+- Visualizes feature importance using Seaborn to understand the impact of each feature.
 
-### Integration:
+### Main Execution:
 - Full pipeline runs in a single executable Python script
 - Includes modular structure for easy customization and real-world dataset integration
 
 ### Repo Link:
-[View Code](https://github.com/noahshallman/quant-tools/blob/main/earnings_suprise_2.py)
+[View Code](https://github.com/noahshallman/quant-tools/blob/main/earnings_surprise_2.py)
 
 --
 ## Implied Volatility Surface Modeler
@@ -66,11 +65,3 @@ This Python script retrieves option data for a specified ticker, calculates the 
 [View Code](https://github.com/noahshallman/quant-tools/blob/main/implied_vol.py)
 
 ---
-## 🧑‍💻 About Me
-
-I'm Noah Shallman, a high school student passionate about financial economics, machine learning, and quantitative investing. I lead teams in the Wharton Investment & Data Science Competitions, build tools to model market behavior, and share my insights on:
-
-- 📺 [YouTube – Noah Knows Markets](http://www.youtube.com/@noahknowsmarkets)
-- 📰 [Substack – Noah Knows Markets](https://noahshallman.substack.com)
-
-
