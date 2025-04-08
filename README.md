@@ -3,7 +3,7 @@
 Welcome! This is a growing collection of Python tools I've built to explore financial markets, combining quantitative signals, fundamental data, and machine learning. These projects reflect my passion for hedge fund strategy, data science, and financial economics.
 
 ---
-## Quantamental ML: Earnings Surprise Predictor
+## Quantitative & Fundamental ML: Earnings Surprise Predictor
 
 This project is an end-to-end machine learning system for predicting earnings surprises using historical stock data and quarterly earnings data.
 
